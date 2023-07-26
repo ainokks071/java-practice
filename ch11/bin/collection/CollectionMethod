@@ -1,0 +1,23 @@
+
+* 상속관계 : [ArrayList클래스] -> [List인터페이스] -> [Collection인터페이스]
+* 상속관계 : [HashSet클래스] -> [Set인터페이스] -> [Collection인터페이스]
+
+							[[Collection 인터페이스의 메서드 정리]]
+							1. 객체 추가 메서드
+							- boolean add(Object o)
+							- boolean addAll(Collection c)
+	 
+[[List 인터페이스의 메서드 정리]]						 [[Set 인터페이스의 메서드 정리]]			
+1. 객체 추가 메서드						  			 1. 객체 추가 메서드
+- void add(int index, Object element)			 - boolean add(Object o)
+- boolean addAll(int index, Collection c)	     - boolean addAll(Collection c)
+
+[[ArrayList 클래스의 메서드 정리]]					[[HashSet 클래스의 메서드 정리]]
+1. 객체 추가 메서드									1. 객체 추가 메서드
+- boolean add(Object o)							- boolean add(Object o)
+- boolean addAll(Collection c)					- boolean addAll(Collection c)
+- void add(int index, Object element)
+- boolean addAll(int index, Collection c)	 
+	  
+	  
+	  

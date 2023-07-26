@@ -1,0 +1,24 @@
+package interfaceTest;
+
+//인터페이스를 사용하지 않았을 때.
+public class InterFaceUnUsalTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class User1 {
+	
+	void methodU(Provider1 pro) {
+		pro.methodP();
+	}
+}
+
+class Provider1 {
+	
+	void methodP() {
+		System.out.println("제공자 메서드가 사용되었습니다.");
+	}
+}

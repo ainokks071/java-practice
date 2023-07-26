@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;hello.asdfqewr&apos; to &apos;COD&apos;&#x0A;- Original project: &apos;ch01&apos;&#x0A;- Original element: &apos;hello.asdfqewr&apos;&#x0A;- Renamed element: &apos;hello.COD&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;asdfqewr&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;hello{asdfqewr.java[asdfqewr" matchStrategy="1" name="COD" qualified="false" references="true" similarDeclarations="false" stamp="1687703174064" textual="false" version="1.0"/>
+</session>

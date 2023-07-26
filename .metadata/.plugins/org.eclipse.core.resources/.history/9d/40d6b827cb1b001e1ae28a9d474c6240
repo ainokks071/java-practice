@@ -1,0 +1,13 @@
+package interfaceTest;
+
+public class InterFaceUsalTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+interface I1 {
+	void methodI();
+}

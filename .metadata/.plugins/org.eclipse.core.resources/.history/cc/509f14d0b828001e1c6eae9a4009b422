@@ -1,0 +1,45 @@
+package kr.tpc;
+
+public class MemberVO {
+	
+	//정보 은닉 -> 잘못된 데이터 필터링 ! (getter, setter 이용 )
+	private String name;
+	private int age;
+	private String tel;
+	private String addr;
+	
+	//getter, setter 메서드 
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public String getTel() {
+		return tel;
+	}
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+	
+	public String getAddr() {
+		return addr;
+	}
+	public void setAddr(String addr) {
+		this.addr = addr;
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,23 @@
+package interfaceTest;
+
+public class InterFaceUsalTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+interface In {
+	
+	void methodIn();
+	
+}
+
+class Provide implements In {
+	
+	public void methodIn() {
+		
+	}
+
+}

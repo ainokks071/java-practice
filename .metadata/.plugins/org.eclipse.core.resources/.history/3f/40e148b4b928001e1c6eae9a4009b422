@@ -1,0 +1,14 @@
+package tpcStudy;
+
+import kr.tpc.MemberVO;
+
+public class TPC15 {
+
+	public static void main(String[] args) {
+
+		MemberVO m = new MemberVO();
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package interfaceTest;
+
+public class InterFaceUsalTest {
+
+	public static void main(String[] args) {
+
+		new Use().methodU(new Provide2());
+	}
+
+}
+
+//사용자 클래스에서, 매개변수 변경할 필요 없음!! 매개변수의 다형성!
+class Use {
+	
+	void methodU(In in) {
+		in.methodIn();
+	}
+}
+
+
+class Provide2 implements In { //만약, 제공자 클래스가 Provide2로 바뀐다면? -> 사용자 클래스는 변경할 필요 없다!(매개변수의 다형성!)
+	
+	public void methodIn() {
+		System.out.println("제공자 메서드가 사용되었습니다.");
+	}
+
+}
+
+interface In {
+	
+	void methodIn();
+	
+}

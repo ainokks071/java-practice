@@ -1,0 +1,18 @@
+package interfaceTest;
+
+//인터페이스를 사용하지 않았을 때.
+public class InterFaceUnUsalTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class User {
+	
+}
+
+class Provider {
+	
+}

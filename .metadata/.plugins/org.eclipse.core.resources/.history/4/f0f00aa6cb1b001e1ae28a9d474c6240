@@ -1,0 +1,33 @@
+package interfaceTest;
+
+public class InterFaceUsalTest {
+
+	public static void main(String[] args) {
+
+		new Use().methodU(new Provide());
+	}
+
+}
+
+
+class Use {
+	
+	void methodU(Provide pro) {
+		pro.methodIn();
+	}
+}
+
+
+class Provide implements In {
+	
+	public void methodIn() {
+		System.out.println("제공자 메서드가 사용되었습니다.");
+	}
+
+}
+
+interface In {
+	
+	void methodIn();
+	
+}
