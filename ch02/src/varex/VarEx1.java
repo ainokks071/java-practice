@@ -5,10 +5,10 @@ public class VarEx1 {
 	public static void main(String[] args) {
 		
 		//지역변수는 반드시 초기화 하자!!
-		//변수 : 선언과 동시에 초기화하는 것이 좋다.
+		//지역변수 : 선언과 동시에 초기화하는 것이 좋다.
 
 		int grade; 
-//		System.out.println(grade); 지역변수는 초기화해야만, 읽을 수 있다.
+		//System.out.println(grade); 지역변수는 초기화해야만, 읽을 수 있다.
 		
 		// *** 변수 선언
 		int age;
