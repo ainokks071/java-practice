@@ -72,6 +72,10 @@ class StaticAndInstance {
 
 	//인스턴스메서드2 내에서 인스턴스변수인 x 사용 가능!!
 	int add2() {
+		// 인스턴스메서드 내에서 클래스메서드 호출 가능		
+		StaticAndInstance.add3(100, 200);
+		// 인스턴스메서드 내에서 클래스변수 사용 가능 
+		StaticAndInstance.a = 300;
 		this.x = 300;
 		return this.x + this.y;
 	}
@@ -80,7 +84,7 @@ class StaticAndInstance {
 	static int add3(int a, int b) {
 	//this.x = 10; -> 클래스메서드 내에서 인스턴스변수인 x 사용 불가!!(따로따로 논다. )
 		
-		new StaticAndInstance().x = 10; //이건 또 되네..?
+		new StaticAndInstance().x = 10; //이건 또 되네..? - > 객체 생성 했으니까..
 		a++;
 		return a+b;
 	}

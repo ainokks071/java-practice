@@ -5,8 +5,8 @@ public class CardTest {
 
 	public static void main(String[] args) {
 
-		Card.width = 99;
-		Card.height = 200;
+//		Card.width = 99;
+//		Card.height = 200;
 
 		Card[] cardArr = new Card[3];
 		
@@ -27,8 +27,8 @@ public class CardTest {
 		System.out.println(cardArr[2].toString());
 
 		//클래스변수 값 변경 -> 카드 3개(객체 3개) 모두 바뀜!!
-		Card.width = 500;
-		Card.height = 1000;
+//		Card.width = 500;
+//		Card.height = 1000;
 
 		System.out.println(cardArr[0].toString());
 		System.out.println(cardArr[1].toString());
@@ -46,8 +46,8 @@ public class CardTest {
 		
 		copy.color = x[2].color;
 		copy.shape = x[0].shape;
-		Card.height = 999;
-		Card.width = 999;
+//		Card.height = 999;
+//		Card.width = 999;
 		
 		return copy;
 		
@@ -58,9 +58,11 @@ public class CardTest {
 class Card {
 
 	//폭, 높이, 색상, 모양
-
-	static int width;
-	static int height;
+	
+	
+	
+	final static int width = 100;
+	final static int height = 200;
 
 	String color;
 	String shape;
