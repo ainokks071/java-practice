@@ -30,7 +30,7 @@ public class LambdaTest1 {
 //		System.out.println(value);
 		
 		
-//		람다식 = 익명 객체 <- 객체(람다식을)를 다루기 위한 타입은 함수형 인터페이스 타입으로 한다 !
+//		람다식 = 익명 객체 <- 객체(람다식)를 다루기 위한 타입은 함수형 인터페이스 타입으로 한다 !
 		
 //		2. 람다식으로 
 		MyFunction myFunction2 = (a, b) -> a > b ? a : b;
