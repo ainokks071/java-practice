@@ -2,6 +2,7 @@ package theme1_LambdaExpression;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
@@ -15,6 +16,12 @@ public class LambdaTest4 {
 		List<Integer> list = new ArrayList<Integer>();
 		makeRandomList(s, list);
 		System.out.println(list);
+		
+		//Consumer : accept(T, t)
+		Consumer<Integer> c = (i) -> System.out.print(i);
+		c.accept(5234234);
+		
+		
 		
 		//Predicate : test(i)
 		Predicate<Integer> p = (i) -> i % 2 == 0;
